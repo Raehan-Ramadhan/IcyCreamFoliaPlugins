@@ -14,6 +14,7 @@ public final class IcyCreamFoliaPlugins extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        getLogger().info("IcyCreamFoliaPlugins has been disabled!");
     }
 
     public static IcyCreamFoliaPlugins getInstance() {
