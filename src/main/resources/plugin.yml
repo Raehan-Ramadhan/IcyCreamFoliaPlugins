@@ -4,3 +4,4 @@ main: org.icycream.foliaplugins.IcyCreamFoliaPlugins
 api-version: '1.20'
 authors: [IcyCream]
 website: https://github.com/Raehan-Ramadhan
+folia-supported: true
