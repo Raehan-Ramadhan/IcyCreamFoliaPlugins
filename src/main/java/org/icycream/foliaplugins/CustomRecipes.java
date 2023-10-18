@@ -15,8 +15,9 @@ public class CustomRecipes {
                 new NamespacedKey(IcyCreamFoliaPlugins.getInstance(), "bundler_recipe"),
                 new ItemStack(Material.BUNDLE));
 
+        bundler_Recipe.shape("SLS", "L L", "LLL");
         bundler_Recipe.setIngredient('L', Material.LEATHER);
         bundler_Recipe.setIngredient('S', Material.STRING);
-        bundler_Recipe.shape("SLS", "L L", "LLL");
+        Bukkit.addRecipe(bundler_Recipe, true);
     }
 }
