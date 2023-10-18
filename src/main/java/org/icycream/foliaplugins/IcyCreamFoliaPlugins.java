@@ -7,6 +7,7 @@ public final class IcyCreamFoliaPlugins extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        getLogger().info("IcyCreamFoliaPlugins has been enabled!");
         CustomRecipes.registerRecipes();
     }
 
