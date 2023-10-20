@@ -1,4 +1,5 @@
 {
 	"java.configuration.updateBuildConfiguration": "interactive",
-	"java.project.exportJar.targetPath": "C:/Users/noval/Downloads/folia-server/plugins/IcyCreamFoliaPlugins.jar"
+	"java.project.exportJar.targetPath": "C:/Users/noval/Downloads/folia-server/plugins/IcyCreamFoliaPlugins.jar",
+	"java.compile.nullAnalysis.mode": "automatic"
 }
